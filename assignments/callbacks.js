@@ -89,6 +89,7 @@ contains('Goat', items, function(check) {
 /* STRETCH PROBLEM */
 
 function removeDuplicates(array, cb) {
+  return cb()
   // removeDuplicates removes all duplicate values from the given array.
   // Pass the duplicate free array to the callback function.
   // Do not mutate the original array.

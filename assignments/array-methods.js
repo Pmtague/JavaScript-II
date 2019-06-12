@@ -89,6 +89,33 @@ console.log(emailList)
 
 //// The director is not only DRUNK WITH POWER, but is also a little OCD. Gather an alphabetical list of all of the companies sponsoring runners in this event.
 
-// Problem 
+let companyList = runners.map(name => name.company_name)
 
-//// 
+console.log(companyList.sort())
+
+// Problem 3
+
+////We need to know how many people have selected each size of shirt.
+
+let extraSmall = runners.filter(size => size.shirt_size === 'XS')
+console.log("XS: " + extraSmall.length);
+
+let small = runners.filter(size => size.shirt_size === 'S')
+console.log("S: " + small.length);
+
+let medium = runners.filter(size => size.shirt_size === 'M')
+console.log("M: " + medium.length);
+
+let large = runners.filter(size => size.shirt_size === 'L')
+console.log("L: " + large.length);
+
+let extraLarge = runners.filter(size => size.shirt_size === 'XL')
+console.log("XL: " + extraLarge.length);
+
+let extraXL = runners.filter(size => size.shirt_size === '2XL')
+console.log("2XL: " + extraXL.length);
+
+let extraXXL = runners.filter(size => size.shirt_size === '3XL')
+console.log("3XL: " + extraXXL.length);
+
+// I'm sure there is a much better way to do that and I am going to keep working at it.
