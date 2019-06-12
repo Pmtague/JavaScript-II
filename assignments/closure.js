@@ -1,6 +1,14 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function zoo() {
+ let animal = 'goat'
+ function fourLegs() {
+   console.log('This animal has four legs: ' + animal)
+ }
+ fourLegs()
+}
+zoo()
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
